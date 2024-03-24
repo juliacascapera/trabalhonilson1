@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Configura o fundo */
+}
+.cabecalho_marca_logo {
+    height: 90px; /* Define a altura do corpo para ocupar toda a altura da tela */
+    align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.apresentacao__conteudo_titulo{ text-align: center;}
+
+.cabecalho__marca__nome{ text-align: center; }
+
+.apresentacao__conteudo_imagem{
+  height: 350px; /* Define a altura do corpo para ocupar toda a altura da tela */
+  align-items: flex-start; /* Alinha os itens no topo */
+}
+
+.apresentacao__conteudo__texto{
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+ }
+
+.conteudo-submenu {
+    display: none;
+    padding: 10px;
+    background-color: #333;
+    color: #ffffff;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.conteudo-submenu.mostrar {
+    display: block;}
+
+ .cabecalho{
+   font-family: 'Arial', sans-serif;
+    color: #fff;
+        
+    }
+
+    .cabecalho_menu{justify-content: center;
+      background-color: #000000; /* Configura o fundo do menu de baixo */
+      padding: 0.8em;
+      border: 3px solid #ffffff; /* Adiciona uma borda de 1px sólida com a cor #ddd */
+      border-radius: 10px;
+
+    }
+    nav a {
+      text-decoration: none;
+      color: #ffffff; /* Configura a cor do texto do submenu */
+      padding: 0.1em 15em;
+      border-radius: 5px; /* Faz a borda e arredonda o botão */
+      transition: background-color 0.3s;
+      position: relative; /* Adiciona posição relativa para o posicionamento do submenu */
+    }
+    
+    nav a:hover {
+      background-color: #333; /* Configura a cor de fundo quando passa o mouse em cima do texto (menu de baixo) */
+      color: #ff0000; /* Configura a cor do texto quando passa o mouse em cima do texto (menu de baixo) */
+    }
+   
+    /* configuração do rodapé */
+  footer {
+    background-color: #0a0a0a;
+    color: white;
+    padding: 35px 0;
+  }
+  
+  .rodape {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .rodape-links a {
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+  }
+  
+  .rodape-info {
+    margin-top: 10px;
+  }
